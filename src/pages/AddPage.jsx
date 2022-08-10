@@ -17,8 +17,16 @@ const AddPage = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="add author" />
-        <input type="text" placeholder="add title" />
+        <input
+          type="text"
+          placeholder="add author"
+          onChange={(e) => e.target.value}
+        />
+        <input
+          type="text"
+          placeholder="add title"
+          onChange={(e) => e.target.value}
+        />
         <button>Add</button>
       </form>
     </div>

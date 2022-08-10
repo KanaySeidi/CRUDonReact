@@ -27,6 +27,9 @@ const HomePage = () => {
       <Link to="/add">
         <button>Add Page</button>
       </Link>
+      <Link to="/redux">
+        <button>Redux PAge</button>
+      </Link>
       <ul>
         {result.map((item) => {
           return (
